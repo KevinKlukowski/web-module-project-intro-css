@@ -10,20 +10,20 @@
  }
  
  .navone{
+    display: block;
     margin: 0 auto;
     width: 50%;
-    align-items: center;
+    padding: 2% 0% 2% 0%;
 }
 
 .navtwo {
+    display: block;
     margin: 0 auto;
-    width: 100%;
-    align-items: center;
-    background-color: #ffdab9;
+    width: 50%;
 }
 
 h1 {
-    display: inline-block;
+    display: block;
     text-align: center;
     margin: 0 auto;
 }
@@ -31,11 +31,16 @@ h1 {
 h2 {
     font-size: 2rem;
     text-align: center;
-    background-color: wheat;
 }
 
 nav .one {
     background-color: coral;
+}
+
+.pone {
+    background-color: burlywood;
+    color: cornsilk;
+    text-align: center;
 }
 
 nav .two {
@@ -54,17 +59,25 @@ nav .three {
 }
 
 .fire {
+    display: block;
     width: 20%;
     margin: 0 auto;
 }
 
 .truck {
+    display: block;
     width: 20%;
     margin: 0 auto;
     padding: 2%;
 }
 
+footer {
+    background-color: peachpuff;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
 .footer {
+    display: block;
     width: 100%;
     margin: 0 auto;
     height: 300px;
@@ -74,12 +87,16 @@ nav .three {
     background-color: coral;
     border-radius: 20%;
     padding: 2%;
+    text-decoration: none;
     font-size: 2rem;
+    color: white:
+    
 }
 
 .foottwo {
     background-color: teal;
     border-radius: 20%;
+    text-decoration: none;
     padding: 2%;
     font-size: 2rem;
 }
@@ -87,6 +104,7 @@ nav .three {
 .footthree {
     background-color: yellow;
     border-radius: 20%;
+    text-decoration: none;
     padding: 2%;
     font-size: 2rem;
 }
