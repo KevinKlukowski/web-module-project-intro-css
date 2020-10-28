@@ -1,8 +1,9 @@
 
  * {
-     border: 1px solid gray;
      max-width: 100%;
+     font-family: 'Henny Penny', cursive;
  }
+
  
  html {
      font-size: 62.5%;
@@ -14,6 +15,13 @@
     color:#4f4f4f;
  }
  
+ .intro {
+     display: inline-block;
+     margin: 0 auto;
+     width: 70%;
+     text-align: center;
+ }
+
 .navone{
     display: block;
     text-align: center;
@@ -33,7 +41,7 @@
 h1 {
     display: inline-block;
     font-size: 5rem;
-    width: 40%;
+    width: 60%;
     text-align: center;
     margin: 5%;
     padding: 0rem 3rem;
@@ -42,7 +50,8 @@ h1 {
 h2 {
     display: inline-block;
     font-size: 1.5rem;
-    width: 40%;
+    width: 60%;
+    line-height: 3rem;
     text-align: center;
     margin: 0 auto;
     padding: 0rem 3rem;
