@@ -1,0 +1,15 @@
+li {
+    display: inline;
+}
+
+#one {
+    background-color: coral;
+}
+
+#two {
+    background-color: blue;
+}
+
+#three {
+    background-color: navy;
+}
