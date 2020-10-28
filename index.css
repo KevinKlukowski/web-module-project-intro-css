@@ -1,9 +1,38 @@
 
- nav a{
+ html {
+     font-size: 62.5%;
+ }
+
+ body {
+    font-size:1.6rem;
+    line-height:1.5;
+    color:#4f4f4f;
+ }
+ 
+ .navone{
+    margin: 0 auto;
+    width: 50%;
+    align-items: center;
+}
+
+.navtwo {
+    margin: 0 auto;
+    width: 100%;
+    align-items: center;
+    background-color: #ffdab9;
+}
+
+h1 {
+    display: inline-block;
+    text-align: center;
     margin: 0 auto;
 }
 
-
+h2 {
+    font-size: 2rem;
+    text-align: center;
+    background-color: wheat;
+}
 
 nav .one {
     background-color: coral;
@@ -24,3 +53,40 @@ nav .three {
     display: inline-block;
 }
 
+.fire {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.truck {
+    width: 20%;
+    margin: 0 auto;
+    padding: 2%;
+}
+
+.footer {
+    width: 100%;
+    margin: 0 auto;
+    height: 300px;
+}
+
+.footone {
+    background-color: coral;
+    border-radius: 20%;
+    padding: 2%;
+    font-size: 2rem;
+}
+
+.foottwo {
+    background-color: teal;
+    border-radius: 20%;
+    padding: 2%;
+    font-size: 2rem;
+}
+
+.footthree {
+    background-color: yellow;
+    border-radius: 20%;
+    padding: 2%;
+    font-size: 2rem;
+}
