@@ -1,4 +1,9 @@
 
+ * {
+     border: 1px solid gray;
+     max-width: 100%;
+ }
+ 
  html {
      font-size: 62.5%;
  }
@@ -9,32 +14,63 @@
     color:#4f4f4f;
  }
  
- .navone{
+.navone{
     display: block;
+    text-align: center;
     margin: 0 auto;
-    width: 50%;
+    width: 100%;
     padding: 2% 0% 2% 0%;
 }
 
 .navtwo {
     display: block;
+    text-align: center;
     margin: 0 auto;
-    width: 50%;
+    width: 100%;
+    padding: 2% 0% 2% 0%;
 }
 
 h1 {
-    display: block;
+    display: inline-block;
+    font-size: 5rem;
+    width: 40%;
     text-align: center;
-    margin: 0 auto;
+    margin: 5%;
+    padding: 0rem 3rem;
 }
 
 h2 {
-    font-size: 2rem;
+    display: inline-block;
+    font-size: 1.5rem;
+    width: 40%;
     text-align: center;
+    margin: 0 auto;
+    padding: 0rem 3rem;
+}
+
+.ptwo {
+    width: 30%;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.pthree {
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 2%;
 }
 
 nav .one {
     background-color: coral;
+    border-radius: 20%;
+    padding: 2%;
+    text-decoration: none;
+    font-size: 2rem;
+    color: white;
+    margin-right: 8%;
+
 }
 
 .pone {
@@ -45,17 +81,30 @@ nav .one {
 
 nav .two {
     background-color: teal;
+    border-radius: 20%;
+    text-decoration: none;
+    padding: 2%;
+    font-size: 2rem;
+    color: white;
+    margin-right: 8%;
 }
 
 nav .three {
     background-color: yellow;
+    border-radius: 20%;
+    text-decoration: none;
+    padding: 2%;
+    font-size: 2rem;
+    color: white;
+    margin-right: 8%;
 }
 
 .mtn {
+    display: inline-block;
+    vertical-align: top;
     border-radius: 50%;
     width: 20%;
-    margin: 10px 10px;
-    display: inline-block;
+    padding: 3rem;
 }
 
 .fire {
@@ -81,6 +130,7 @@ footer {
     width: 100%;
     margin: 0 auto;
     height: 300px;
+    
 }
 
 .footone {
@@ -89,7 +139,8 @@ footer {
     padding: 2%;
     text-decoration: none;
     font-size: 2rem;
-    color: white:
+    color: white;
+    margin-right: 8%;
     
 }
 
@@ -99,6 +150,8 @@ footer {
     text-decoration: none;
     padding: 2%;
     font-size: 2rem;
+    color: white;
+    margin-right: 8%;
 }
 
 .footthree {
@@ -107,4 +160,14 @@ footer {
     text-decoration: none;
     padding: 2%;
     font-size: 2rem;
+    color: white;
+    margin-right: 8%;
 }
+
+
+
+
+
+
+
+
