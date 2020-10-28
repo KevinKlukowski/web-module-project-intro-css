@@ -1,15 +1,26 @@
-li {
-    display: inline;
+
+ nav a{
+    margin: 0 auto;
 }
 
-#one {
+
+
+nav .one {
     background-color: coral;
 }
 
-#two {
-    background-color: blue;
+nav .two {
+    background-color: teal;
 }
 
-#three {
-    background-color: navy;
+nav .three {
+    background-color: yellow;
 }
+
+.mtn {
+    border-radius: 50%;
+    width: 20%;
+    margin: 10px 10px;
+    display: inline-block;
+}
+
